@@ -66,7 +66,7 @@ const projectsData = [
     project: "Hackathon BCIT's Hack the Break 2022",
     description: "I successfully created a text-based game within a 24-hour timeframe. The hackathon was done remotely that I managed to effectively communicate with the team through discord and resolved conflicts as a team.",
     image: "/images/projects/burnout.png",
-    tag: ["All", "mobile"],
+    tag: ["All", "Mobile"],
     skill: "Skills: HTML5, CSS, JavaScript, Heroku",
     gitUrl: "https://github.com/MinjiKong/Debug-Run",
     previewUrl: "/",
