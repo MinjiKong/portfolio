@@ -62,11 +62,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          "I am a software developer, driven by a deep passion for crafting interactive and responsive web and mobile applications. 
+          I am a software developer, driven by a deep passion for crafting interactive and responsive web and mobile applications. 
           My primary expertise is in front-end development, where I combine creativity with 
           meticulous attention to detail to ensure the creation of user-friendly applications that captivate and delight.
-          As a quick learner, I'm always on the lookout for new skills and technologies.
-          I am looking forward to adventure this dynamic and ever-evolving field!"
+          As a quick learner, I am always on the lookout for new skills and technologies.
+          I am looking forward to adventure this dynamic and ever-evolving field!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
