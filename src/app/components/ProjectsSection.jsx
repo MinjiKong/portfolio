@@ -67,8 +67,8 @@ const projectsData = [
     skill: "Skills: HTML5, CSS, Heroku, JavaScript, MySQL, Node.js, Bcypt",
     gitUrl: "https://github.com/MinjiKong/Butterfly-Effect",
     previewUrl: "/",
-    width: 600,
-    height: 400,
+    width: 550,
+    height: 300,
   },
   {
     id: 6,
