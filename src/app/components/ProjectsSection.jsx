@@ -35,7 +35,7 @@ const projectsData = [
     id: 3,
     title: "PokeSlot",
     project: "Android Mobile Academic Project",
-    description: "It was my first time developing an Android mobile app with a new language, kotlin. I learned the Model-View-ViewModel (MVVM) designp pattern.",
+    description: "It was my first time developing an Android mobile app with a new language, kotlin. I learned the Model-View-ViewModel (MVVM) design pattern.",
     image: "/images/projects/pokeslot.gif",
     tag: ["All", "Mobile"],
     skill: "Skills: Kotlin, Android Studio, Firebase",
