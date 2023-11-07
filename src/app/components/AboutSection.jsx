@@ -2,24 +2,26 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Skill from "./Skill";
 
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Java</li>
-        <li>Python</li>
-        <li>Dart</li>
-        <li>Kotlin</li>
-        <li>Flutter</li>
-        <li>Git</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>JavaScript</li>
-        <li>Tailwind</li>
-        <li>Amazon Web Services</li>
+      <ul className="grid grid-cols-5 gap-5">
+        <Skill imageSrc="images/skills/java.png" skillName="Java" percentage="90%" />
+        <Skill imageSrc="images/skills/python.png" skillName="Python" percentage="90%" />
+        <Skill imageSrc="images/skills/dart.png" skillName="Dart" percentage="60%" />
+        <Skill imageSrc="images/skills/kotlin.png" skillName="Kotlin" percentage="60%" />
+        <Skill imageSrc="images/skills/flutter.png" skillName="Flutter" percentage="80%" />
+        <Skill imageSrc="images/skills/git.png" skillName="Git" percentage="90%" />
+        <Skill imageSrc="images/skills/react.png" skillName="React" percentage="70%" />
+        <Skill imageSrc="images/skills/nextjs.png" skillName="Next.js" percentage="50%" />
+        <Skill imageSrc="images/skills/javascript.png" skillName="JavaScript" percentage="80%" />
+        <Skill imageSrc="images/skills/tailwind.png" skillName="Tailwind" percentage="50%" />
+        <Skill imageSrc="images/skills/aws.png" skillName="AWS" percentage="50%" />
+        <Skill imageSrc="images/skills/firebase.png" skillName="Firebase" percentage="50%" />
       </ul>
     ),
   },

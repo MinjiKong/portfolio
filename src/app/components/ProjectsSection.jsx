@@ -7,36 +7,42 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Goal Tracking App",
+    title: "Goal Checking App",
     project: "Industry Sponsored Student Project",
     description: "I collaborated within a dynamic team of 4 to develop a cutting-edge mobile application with valuable guidance from our esteemed client, OneIotaPerformance. I have learned the Model-View-Controller (MVC) design pattern, a fundamental aspect of modern software architecture.",
-    image: "/images/projects/burnout.png",
+    image: "/images/projects/goal.gif",
     tag: ["All", "Mobile"],
     skill: "Skills: Flutter, Dart, MySQL and Swagger API",
     gitUrl: "/",
     previewUrl: "/",
+    width: 200,
+    height: 400,
   },
   {
     id: 2,
-    title: "Golf App",
+    title: "Golf Performance App",
     project: "Industry Sponsored Student Project",
     description: "My team successfully developed a mobile app which later got released by OneIotaPerformance for public use. I have acquired proficiency in Flutter through self-directed learning.",
-    image: "/images/projects/burnout.png",
+    image: "/images/projects/golf.gif",
     tag: ["All", "Mobile"],
     skill: "Skills: Flutter, Dart, and Firebase",
     gitUrl: "https://github.com/MinjiKong/oneiotaperformance",
-    previewUrl: "/",
+    previewUrl: "https://play.google.com/store/apps/details?id=com.oneiotaperformance.golf&hl=en-US&ah=5jL7ntK8K227cgiIHX9Xk_n9A2E ",
+    width: 200,
+    height: 400,
   },
   {
     id: 3,
     title: "PokeSlot",
     project: "Android Mobile Academic Project",
     description: "It was a first time developing an Android mobile app with a new language, kotlin. I learned the Model-View-ViewModel (MVVM) designp pattern.",
-    image: "/images/projects/burnout.png",
+    image: "/images/projects/pokeslot.gif",
     tag: ["All", "Mobile"],
     skill: "Skills: Kotlin, Android Studio, Firebase",
     gitUrl: "https://github.com/MinjiKong/PokeSlot",
-    previewUrl: "/",
+    previewUrl: "https://www.canva.com/design/DAFfIMC41cE/7KMiYkCiA_t1f_yG_2i8UQ/view?utm_content=DAFfIMC41cE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    width: 200,
+    height: 400,
   },
   {
     id: 4,
@@ -47,29 +53,35 @@ const projectsData = [
     tag: ["All", "Web"],
     skill: "Skills: HTML5, CSS, JavaScript, Node.js, Firebase, React, AWS EC2, AWS Cognito, AWS S3, and Elastic Load Balancer",
     gitUrl: "https://github.com/MinjiKong/BurnOut",
-    previewUrl: "/",
+    previewUrl: "https://www.canva.com/design/DAFdAkQB8I4/WAK-1JuWpjnz5X5FSa21IQ/view?utm_content=DAFdAkQB8I4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    width: 500,
+    height: 300,
   },
   {
     id: 5,
     title: "Butterfly Effect",
     project: "Academic Project",
     description: "I collaborated in a team of 5, applying Agile development methodologies with scrum and Git branching. I self-taught on email API using JavaScript",
-    image: "/images/projects/burnout.png",
+    image: "/images/projects/butterfly.gif",
     tag: ["All", "Web"],
     skill: "Skills: HTML5, CSS, Heroku, JavaScript, MySQL, Node.js, Bcypt",
     gitUrl: "https://github.com/MinjiKong/Butterfly-Effect",
     previewUrl: "/",
+    width: 600,
+    height: 400,
   },
   {
     id: 6,
     title: "Debug Run",
     project: "Hackathon BCIT's Hack the Break 2022",
     description: "I successfully created a text-based game within a 24-hour timeframe. The hackathon was done remotely that I managed to effectively communicate with the team through discord and resolved conflicts as a team.",
-    image: "/images/projects/burnout.png",
+    image: "/images/projects/debug.gif",
     tag: ["All", "Mobile"],
     skill: "Skills: HTML5, CSS, JavaScript, Heroku",
     gitUrl: "https://github.com/MinjiKong/Debug-Run",
     previewUrl: "/",
+    width: 200,
+    height: 400,
   },
 ];
 
@@ -131,6 +143,8 @@ const ProjectsSection = () => {
               skill={project.skill}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              width={project.width}
+              height={project.height}
             />
           </motion.li>
         ))}
