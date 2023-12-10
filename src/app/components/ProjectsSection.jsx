@@ -7,6 +7,19 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "StoreFront",
+    project: "Serverless Academic Project",
+    description: "Created e-commerce website that is run serverless by using AWS services",
+    image: "/images/projects/storefront.gif",
+    tag: ["All", "Web"],
+    skill: "Skills: Nextjs, Tailwind, stripe, 17 AWS services",
+    gitUrl: "/",
+    previewUrl: "/",
+    width: 200,
+    height: 400,
+  },
+  {
+    id: 2,
     title: "Goal Checking App",
     project: "Industry Sponsored Student Project",
     description: "I collaborated within a dynamic team of 4 to develop a cutting-edge mobile application with valuable guidance from our esteemed client, OneIotaPerformance. I have learned the Model-View-Controller (MVC) design pattern, a fundamental aspect of modern software architecture.",
@@ -19,7 +32,7 @@ const projectsData = [
     height: 400,
   },
   {
-    id: 2,
+    id: 3,
     title: "Golf Performance App",
     project: "Industry Sponsored Student Project",
     description: "My team successfully developed a mobile app which later got released by OneIotaPerformance for public use. I have acquired proficiency in Flutter through self-directed learning.",
@@ -32,7 +45,7 @@ const projectsData = [
     height: 400,
   },
   {
-    id: 3,
+    id: 4,
     title: "PokeSlot",
     project: "Android Mobile Academic Project",
     description: "It was my first time developing an Android mobile app with a new language, kotlin. I learned the Model-View-ViewModel (MVVM) design pattern.",
@@ -45,7 +58,7 @@ const projectsData = [
     height: 400,
   },
   {
-    id: 4,
+    id: 5,
     title: "BurnOut",
     project: "Cloud Academic Project",
     description: "With the knowledge I gained in BCIT Cloud option course, I created a web application using a wide range of AWS.",
@@ -58,7 +71,7 @@ const projectsData = [
     height: 300,
   },
   {
-    id: 5,
+    id: 6,
     title: "Butterfly Effect",
     project: "Academic Project",
     description: "I collaborated in a team of 5, applying Agile development methodologies with scrum and Git branching. I self-taught on email API using JavaScript",
@@ -71,7 +84,7 @@ const projectsData = [
     height: 300,
   },
   {
-    id: 6,
+    id: 7,
     title: "Debug Run",
     project: "Hackathon BCIT's Hack the Break 2022",
     description: "I successfully created a text-based game within a 24-hour timeframe. The hackathon was done remotely that I managed to effectively communicate with the team through discord and resolved conflicts as a team.",
