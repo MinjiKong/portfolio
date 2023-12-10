@@ -15,8 +15,8 @@ const projectsData = [
     skill: "Skills: Nextjs, Tailwind, stripe, 17 AWS services",
     gitUrl: "/",
     previewUrl: "/",
-    width: 200,
-    height: 400,
+    width: 500,
+    height: 300,
   },
   {
     id: 2,
