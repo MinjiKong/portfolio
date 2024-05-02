@@ -104,7 +104,7 @@ const projectsData = [
     skill: "Skills: Nextjs, Tailwind, stripe, 17 AWS services",
     gitUrl: "/",
     previewUrl: "/",
-    width: 500,
+    width: 550,
     height: 300,
   },
   {
@@ -118,7 +118,7 @@ const projectsData = [
     skill: "Skills: Nextjs, Typescript, Public API, CSS",
     gitUrl: "https://github.com/MinjiKong/New-York-Times-Best-Sellers",
     previewUrl: "https://new-york-times-best-sellers-omega.vercel.app/",
-    width: 500,
+    width: 550,
     height: 300,
   },
 ];
