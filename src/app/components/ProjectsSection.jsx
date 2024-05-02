@@ -30,7 +30,7 @@ const projectsData = [
     skill: "Skills: HTML5, CSS, Heroku, JavaScript, MySQL, Node.js, Bcypt",
     gitUrl: "https://github.com/MinjiKong/Butterfly-Effect",
     previewUrl: "/",
-    width: 550,
+    width: 400,
     height: 300,
   },
   {
@@ -46,7 +46,7 @@ const projectsData = [
     gitUrl: "https://github.com/MinjiKong/BurnOut",
     previewUrl:
       "https://www.canva.com/design/DAFdAkQB8I4/WAK-1JuWpjnz5X5FSa21IQ/view?utm_content=DAFdAkQB8I4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    width: 500,
+    width: 400,
     height: 300,
   },
   {
@@ -104,7 +104,7 @@ const projectsData = [
     skill: "Skills: Nextjs, Tailwind, stripe, 17 AWS services",
     gitUrl: "/",
     previewUrl: "/",
-    width: 550,
+    width: 400,
     height: 300,
   },
   {
@@ -118,7 +118,7 @@ const projectsData = [
     skill: "Skills: Nextjs, Typescript, Public API, CSS",
     gitUrl: "https://github.com/MinjiKong/New-York-Times-Best-Sellers",
     previewUrl: "https://new-york-times-best-sellers-omega.vercel.app/",
-    width: 550,
+    width: 400,
     height: 300,
   },
 ];
